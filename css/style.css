@@ -3171,7 +3171,7 @@ textarea.form-control{height: 150px !important;}
 
 .lista-beneficios {
   color: #ffffff;
-  text-align: left;
+  list-style: none;
 }
 
 
