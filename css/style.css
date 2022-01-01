@@ -3590,6 +3590,9 @@ textarea.form-control{height: 150px !important;}
 }
 
 @media screen and (max-width:767px) {
+  .aboutImg {
+    max-height: 400px;
+  }
   .videoslider h1 {
     font-size: 34px;
   }
@@ -3633,11 +3636,11 @@ textarea.form-control{height: 150px !important;}
     border: none;
   }
 
-.loginwrp a{padding: 13px 24px;}
-.about-wrap{padding: 50px 0;}
-.slidertext3 {
-    line-height: 10px !important;
-}
+  .loginwrp a{padding: 13px 24px;}
+  .about-wrap{padding: 50px 0;}
+  .slidertext3 {
+      line-height: 10px !important;
+  }
   .atlanta_logo {
     text-align: left !important;
     margin-right: 76px;
