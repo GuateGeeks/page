@@ -106,8 +106,9 @@ ul.tick li {
 	   == Header Css Start ==
 ********************************************/
 .header-wrap {
+  height: 50px;
 }
-.header-wrap .logo{margin-top: 6px;}
+.header-wrap .logo{padding-top: 5px;}
 .header-wrap .conInfo {
   padding-left: 52px;
   position: relative;
@@ -182,7 +183,7 @@ ul.tick li {
 .navbar-light .navbar-nav .nav-link {
   color: #707070;
   font-size: 14px;
-  padding:34px 22px;
+  padding:15px 22px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -3175,25 +3176,27 @@ textarea.form-control{height: 150px !important;}
   list-style: none;
 }
 
-
+img.logo-default {
+  height:40px!important;
+}
 
 
 
 /*****:Media Quries :*****/
 
 @media screen and (max-width:1440px) {
-.navbar-light .navbar-nav .nav-link{padding: 34px 16px;}
+.navbar-light .navbar-nav .nav-link{padding: 20px 16px;}
 }
 
 @media screen and (max-width:1350px) {
-.navbar-light .navbar-nav .nav-link{padding: 34px 10px;}
+.navbar-light .navbar-nav .nav-link{padding: 15px 10px;}
 }
 
 
 @media screen and (max-width:1200px) {
-  .header-wrap .navbar-light{max-width: 100%; display: block; flex: auto;}
+  .header-wrap .navbar-light{max-width: 100%; display: block; flex: auto; height: 50px;}
   .header-wrap .col-lg-6{max-width: 75%; flex: 75%;}
-  .navbar-light .navbar-nav .nav-link{padding: 34px 16px;}
+  .navbar-light .navbar-nav .nav-link{padding: 15px 16px;}
   .header-wrap .logo{text-align: center; background: #f3f3f3; padding: 15px;}
   .class-wrap .owl-nav{display: none;}
 .blog_inner .blog_box h3 a{font-size: 20px;}
@@ -3607,6 +3610,7 @@ textarea.form-control{height: 150px !important;}
   .logo {
     margin-right: 70px;
   }
+  
   .school_sec {
     margin-top: 0;
   }
